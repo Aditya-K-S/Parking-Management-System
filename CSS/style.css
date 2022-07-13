@@ -1,0 +1,47 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    padding:0;
+    margin:0;
+    border:0
+}
+header{
+    background-color: rgb(214, 200, 196);
+}
+#header-logo{
+    width: 70px;
+    height: 64px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-right: -24px;
+}
+#header-msg{
+    font-size: 34px;
+    color: #e01f16;
+    font-weight: bold;
+    font-family: cursive;
+}
+#btnOne{
+    background-color: rgb(0 83 150);
+    color:white;
+    border-radius: 10px;
+    cursor:pointer;
+    padding: 6px 20px;
+    border: 2px solid white;
+}
+#btnOne:focus,#btnOne:hover{
+    box-shadow: none;
+    outline:none;
+}
+
+#tableHead{
+    background-color:rgb(34, 91, 86);
+}
+#searchInput{
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    border-bottom: 1px solid #3b4f63;
+}
+#searchInput:hover,#searchInput:focus{
+    box-shadow: none;
+    outline:none;
+}
